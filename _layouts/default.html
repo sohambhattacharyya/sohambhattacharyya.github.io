@@ -3,20 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>Planets of the Universe</title>
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
-	<strong>The Marvel Multiverse</strong>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/news.html">News</a></li>
-		</ul>
-	</nav>
+	<h1>The Marvel Multiverse</h1>
+	{% include nav.html %}
 </header>
 
 {{content}}
+
+<footer>
+	{% include nav.html %}
+	<p>(c) The Marvel Multiverse</p>
+</footer>
 
 </body>
 </html>
