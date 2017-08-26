@@ -1,0 +1,9 @@
+---
+title: "Here we go . . ."
+date: 2016-07-07 21:47:23
+categories: [uncategorized]
+tags: [uncategorized]
+---
+OK. I have ~~successfully~~ well, almost completed setting up WordPress and made the site look and feel fairly good enough. Both firsts. Next up will be some additional customization, as I become more familiar with the web development environment.
+
+If you found your way here at this point, there is not much to see or read yet. I plan to change that soon!
