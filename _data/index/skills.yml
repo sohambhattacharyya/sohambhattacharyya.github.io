@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Motivation, Matlab, EAGLE, Diptrace, Proteus, C, Linux, Simulink, R, Python, SQL, VHDL, Tanner EDA, Java, JavaScript, C#
+percentage: 100, 60, 75, 80, 70, 65, 70, 55, 10, 15, 75, 50, 60, 65, 60, 60

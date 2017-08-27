@@ -1,3 +1,72 @@
-markdown: kramdown
-baseurl: '/'
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Soham Bhattacharyya
+email: soham1.618@gmail.com
+description: Notes, pointers and cheatsheets.
+url: http://www.sohambhattacharyya.com # the base hostname & protocol for your site
+keywords: ["DSP", "MATLAB", "Electrical", "Electronics", "Communications", "Engineering", "Statistics", "Machine Learning", "Optics", "Neural Network", "Artificial Intelligence", "Eagle", "Arduino", "Raspberry Pi", "Diptrace", "Proteus", "Simulink", "FPGA"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          India/Kolkata
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /blog/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Soham Bhattacharyya
+  avatar: profile.jpg
+  job: "ECE undergrad"
+  bio: "Notes, pointers and cheatsheets."
+  email: soham1.618@gmail.com
+  disqus-shortname: renyuanzblog
+  twitter: __Soham #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: SohamBhattacharyya #username
+  stackoverflow: 3956752/soham-bhattacharyya #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: soham-bhattacharyya #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username
+
+plugins:
+  - jekyll-seo-tag
+
 exclude: ['README.md']

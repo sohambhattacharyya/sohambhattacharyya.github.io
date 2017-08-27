@@ -1,0 +1,44 @@
+- name: EMG, National Institute for Locomotor Disabilities
+  descr: "Undertaken a project on electromyography (EMG), which involves analysing neuromuscular junctions and identifying diseases for the disabled and paralysed and transmitting curative pulses for long-term healing."
+  image: 
+  github: 
+
+- name: Real-time Object Tracking with Ultrasonic Distance Measurement
+  descr: "Designed a real-time object tracking algorithm using MATLAB, Android phone and Arduino and distance measurement using ultrasonic sensor as the undergraduate final year project."
+  image: 
+  github: 
+
+- name: Linux Box Server
+  descr: "Setup a Linux box to host a website, perform as a firewall and central file server with SSH for a small network set up at home."
+  image: 
+  github: 
+
+- name: Augmented Reality on Real Time
+  descr: "Created an algorithm in MATLAB that would recognize an object and perform augmentation on real-time."
+  image: 
+  github: 
+
+- name: 2D to 3D Image Conversion
+  descr: "Created an algorithm in MATLAB to convert two images of an object from two different viewpoints into a three-dimensional image, viewable through 3D glasses and packaged it as an application."
+  image: 
+  github: 
+
+- name: 24OnlineConnect (Android App Development)
+  descr: "Developed an android app "24OnlineConnect" that keeps the user from the need of repeatedly logging in as the effect of random ISP logouts, by running a lightweight always-on service in the background."
+  image: 
+  github: https://github.com/sohambhattacharyya/24OnlineConnect
+
+- name: Digital Clock using Quartz Oscillators
+  descr: "Programmed an ATMega16 microcontroller to use the pulses of an external 16Mhz Quartz oscillator to simulate one-second pulses as a digital clock with reset, adjust and timer options."
+  image: 
+  github: 
+  
+- name: Audio Spectrum Analyzer
+  descr: "Performed analysing of output audio signal in two different methods using hardware and software simulations and generating different signals for different bands."
+  image: 
+  github: 
+  
+- name: Home Surveillance System
+  descr: "Created a system with Arduino, using ultrasonic sensor, laser sensor and proximity sensor, that, if any anomaly is detected, would turn on a buzzer, display the sensors information on an LCD and send an alert using SMS."
+  image: 
+  github: 
