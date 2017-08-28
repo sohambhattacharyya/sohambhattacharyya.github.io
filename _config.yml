@@ -7,7 +7,7 @@ title: Soham Bhattacharyya
 email: soham1.618@gmail.com
 description: Notes, pointers and cheatsheets.
 url: http://www.sohambhattacharyya.com # the base hostname & protocol for your site
-baseurl: '/'
+baseurl: http://www.sohambhattacharyya.com
 keywords: ["DSP", "MATLAB", "Electrical", "Electronics", "Communications", "Engineering", "Statistics", "Machine Learning", "Optics", "Neural Network", "Artificial Intelligence", "Eagle", "Arduino", "Raspberry Pi", "Diptrace", "Proteus", "Simulink", "FPGA"]
 
 #
