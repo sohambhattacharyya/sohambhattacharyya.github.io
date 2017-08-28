@@ -19,7 +19,7 @@
   }
 }
 .cover-card {
-  color: $text-color;
+  color: #F8F8F8;
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
@@ -29,14 +29,14 @@
   }
   .author_name {
     display: block;
-    color: $success;
+    color: #F83E4B;
     font-size: 1.75em;
     text-transform: lowercase;
     font-family: $font-family-monospace;
   }
   .author_job {
     display: block;
-    color: $white;
+    color: #D4C5B1;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
   .author_bio {
     font-size: 90%;
     display: block;
-    color: $white
+    color: #B2BF83;
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -63,10 +63,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $white;
+        color: #D4C5B1;
         &:hover,
         &:focus {
-          color: lighten($success, 14%);
+          color: lighten(#42B9A2, 14%);
         }
       }
     }
@@ -84,10 +84,10 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $white;
+      color: #E6C388;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten(#42C820, 14%);
       }
     }
   }
