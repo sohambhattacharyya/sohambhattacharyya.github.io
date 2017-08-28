@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "Introduction to DSP using MATLAB - Part I"
 date: 2017-04-09 00:00:00
 categories: DSP
 tags: [DSP, MATLAB, convolution, system, frequency, FIR]
+comments: true
 ---
 Last semester, I had to take the course of Digital Signal Processing as a part of my ECE undergrad coursework. Unlike many other papers, to one's awe, I didn't find any reference site or portal, that would give me an overall review of the subject from an application-oriented viewpoint before being bogged down with its theories and pracical assignments. Or that I could look upto, use as a reference site, to back up the learning process of this course throughout the semester.
 

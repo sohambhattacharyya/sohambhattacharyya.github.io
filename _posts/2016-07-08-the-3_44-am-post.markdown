@@ -1,8 +1,10 @@
 ---
+layout: post
 title: "The 3:44 am post . . ."
 date: 2016-07-08 03:44:23
 categories: [uncategorized]
 tags: [uncategorized]
+comments: true
 ---
 Site construction is in progress. Experimenting with layout and formatting - the fine tuning. I have integrated some of my social accounts. And it is quite close to be up and running.
 
