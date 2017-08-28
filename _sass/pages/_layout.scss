@@ -1,6 +1,7 @@
 /* LAYOUT CSS */
 .cover {
-  background-color: $background-color;
+  background-color: $background-color;  
+  background-image: url("{{ site.baseurl }}/img/background.gif");
   position: fixed;
   text-align: center;
   width: 100%;
