@@ -45,7 +45,7 @@
   .author_bio {
     font-size: 90%;
     display: block;
-    color: #B2BF83;
+    color: #;
   }
   @include media-query($medium-screen) {
     text-align: right;
@@ -63,7 +63,7 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: #D4C5B1;
+        color: #F8F8F8;
         &:hover,
         &:focus {
           color: lighten(#42B9A2, 14%);
@@ -84,10 +84,10 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: #E6C388;
+      color: #B2BF83;
       &:hover,
       &:focus {
-        color: lighten(#42C820, 14%);
+        color: lighten(#42B9A2, 14%);
       }
     }
   }
