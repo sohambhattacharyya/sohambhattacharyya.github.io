@@ -39,12 +39,12 @@ owner:
   job: "ECE undergrad"
   bio: "Notes, pointers and cheatsheets."
   email: soham1.618@gmail.com
-  disqus-shortname: 
+  disqus-shortname: sohambhattacharyya
   twitter: __Soham #username
   facebook: #username
   google:
     plus: #username
-    analytics: 
+    analytics: UA-83935417-1
     verify:
     ad-client:
     ad-slot:
@@ -61,11 +61,13 @@ owner:
   steam: #username
   dribbble: #username
   youtube: #username
-  soundcloud: #username
+  soundcloud: sohambhattacharyya
   weibo: #username
   flickr: #username
   codepen: #username
   telegram: #username
 
+plugins:
+  - jekyll-seo-tag
 
-exclude: ['README.md']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
