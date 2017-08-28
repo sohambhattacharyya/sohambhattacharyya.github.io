@@ -1,24 +1,24 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: National Institute for Locomotor Disabilities
+- name: National Institute for Locomotor Disabilities, Govt. of India
   link: http://www.niohkol.nic.in/
   date: June 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="December 2017"></i>
   job: Project Engineer
 
-- name: Bharat Sanchar Nigam Limited
+- name: Bharat Sanchar Nigam Limited, Govt. of India
   link: http://www.bsnl.co.in/
   date: June 2017 - July 2017
-  job: Telecommunication Internship
+  job: Telecommunications Internship
 
-- name: Jadavpur University
+- name: Jadavpur University, Kolkata, IN
   link: http://www.jaduniv.edu.in/
   date: June 2016 - August 2016
   job: VLSI Internship
 
-- name: Indian Institute of Remote Sensing, Indian Space Research Organization
+- name: Indian Institute of Remote Sensing, Indian Space Research Organization, Govt. of India
   link: http://www.iirs.gov.in/
   date: August 2015 - November 2015
-  job: Satellite Communication Internship
+  job: Satellite Communications Internship
 
 - name: Infosys
   link: https://www.infosys.com/
