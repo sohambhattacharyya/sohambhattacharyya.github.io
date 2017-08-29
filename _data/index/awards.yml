@@ -1,6 +1,6 @@
 - name: IBM - Master The Mainframe 2016 National Winner
   descr: "I, along with 4 other contestants, won the IBM-MTM world championship at national level."
-  image: {{ site.url }}/img/ibm_mtm_badge.jpg
+  image: 
   github:
   website: https://www.youracclaim.com/badges/2cdf4d0e-4ecb-41c2-8e19-2fe50ebd476b
 
