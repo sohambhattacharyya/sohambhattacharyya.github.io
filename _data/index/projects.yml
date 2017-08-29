@@ -26,7 +26,7 @@
 - name: 24OnlineConnect (Android App Development)
   descr: "Developed an android app "24OnlineConnect" that keeps the user from the need of repeatedly logging in as the effect of random ISP logouts, by running a lightweight always-on service in the background."
   image: 
-  github: https://github.com/sohambhattacharyya/24OnlineConnect
+  github:
 
 - name: Digital Clock using Quartz Oscillators
   descr: "Programmed an ATMega16 microcontroller to use the pulses of an external 16Mhz Quartz oscillator to simulate one-second pulses as a digital clock with reset, adjust and timer options."
