@@ -1,4 +1,6 @@
 _site
 .sass-cache
 .ruby-version
+.directory
+Thumbs.db
 Gemfile.lock

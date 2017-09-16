@@ -6,8 +6,8 @@
 title: Soham Bhattacharyya
 email: soham1.618@gmail.com
 description: Notes, pointers and cheatsheets.
-url: http://www.sohambhattacharyya.com # the base hostname & protocol for your site
-baseurl: http://www.sohambhattacharyya.com
+url: "http://www.sohambhattacharyya.com"
+#baseurl: "/"
 keywords: ["DSP", "MATLAB", "Electrical", "Electronics", "Communications", "Engineering", "Statistics", "Machine Learning", "Optics", "Neural Network", "Artificial Intelligence", "Eagle", "Arduino", "Raspberry Pi", "Diptrace", "Proteus", "Simulink", "FPGA"]
 
 #
@@ -50,7 +50,7 @@ owner:
     ad-slot:
   bing-verify:
   github: SohamBhattacharyya #username
-  stackoverflow: 3956752/soham-bhattacharyya #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 3956752/soham-bhattacharyya # 123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: soham-bhattacharyya #username
   xing: #username
   instagram: #username
@@ -61,7 +61,7 @@ owner:
   steam: #username
   dribbble: #username
   youtube: #username
-  soundcloud: 
+  soundcloud:
   weibo: #username
   flickr: #username
   codepen: #username
