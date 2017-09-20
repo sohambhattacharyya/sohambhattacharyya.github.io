@@ -19,7 +19,7 @@ Another purpose of this series of blog posts will be to function as an online re
 
 We use the mathematical functions for each of the known waveforms and `subplot` them in four sectors. In case of the unit step function, we create a row matrix of value '1' using the `ones` function.
 
-```
+```matlab
 %% Generation of Discrete-Time Sequences
 % Unit Step Sequence
 N = 21;
@@ -69,7 +69,8 @@ subplot(2,1,2), stem(n2,y);
 xlabel('n'),ylabel('y(n)');
 title('Convolution of two sequences x(n) and h(n)');
 ```
-```
+
+```matlab
 y =
      1     1     3     5     4     9     8     9    11     6     5     2
 ```
@@ -81,7 +82,7 @@ y =
 
 The `freqz` function returns the frequency response vector $h$, from the given values of the system $H(z) = \frac{1}{1 - 8z^(-1)}$.
 
-```MATLAB
+```matlab
 %% Frequency response of a first order system
 b = [1]; %Numerator coefficients
 a = [1,-8]; %Denominator coefficients
@@ -101,7 +102,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');
 
 The given systems are $H(z) = \frac{1 + 0.9z^-2}{1 + 0.4z^-2}$ and $H(z) = \frac{1 - z^-1}{1 + 0.25z^-1}$.
 
-```
+```matlab
 %% Frequency response of given systems
 b = [1,0,.9]; %Numerator coefficients of system1
 a = [1,0,.4]; %Denominator coefficients of system1
@@ -127,7 +128,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');grid
 
 For the two FIR systems $H(z) = 1 + z^-1 + z^-2 + z^-3 + z^-4$ and $H(z) = 1 - z^-1$.
 
-```
+```matlab
 %% Frequency response of FIR systems
 b = ones(1,5); %FIR system1
 a = [1];
@@ -153,7 +154,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');grid
 
 $x4$ is the only aperiodic sequence here.
 
-```
+```matlab
 %% Periodic and aperiodic sequences
 n = 0:1:50;
 n1 = 0:1:50;
@@ -174,7 +175,7 @@ subplot(2,2,4),stem(n1,x4),xlabel('n'),ylabel('x4(n)'),axis([0 50 -1 1])
 
 
 
-```
+```matlab
 %% Periodicity property of digital frequency
 n = 0:1:30;
 x1 = cos(1.8*pi*n); %Sinewave with frequency w=1.8*pi
@@ -194,7 +195,7 @@ subplot(2,2,4),stem(n,x4),xlabel('n'),ylabel('x4(n)'),axis([0 30 -1 1])
 
 
 
-```
+```matlab
 %% Property of digital frequency
 n = -10:1:10;
 x1 = cos(0*pi*n); %Sinewave with frequency w=0
@@ -218,7 +219,7 @@ subplot(3,2,6),stem(n,x6),xlabel('n'),ylabel('x6(n)'),axis([-10 10 -1 1])
 
 The `filter` works on the basis of the given values of coefficients of the numerator and the denominator of the transfer function.
 
-```
+```matlab
 %% 50Hz noise filter
 t = 0:.001:2;
 x = cos(2*pi*50*t);
