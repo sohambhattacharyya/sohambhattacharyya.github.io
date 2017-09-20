@@ -69,7 +69,7 @@ subplot(2,1,2), stem(n2,y);
 xlabel('n'),ylabel('y(n)');
 title('Convolution of two sequences x(n) and h(n)');
 ```
-
+Command Window output:
 ```matlab
 y =
      1     1     3     5     4     9     8     9    11     6     5     2
