@@ -152,7 +152,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');grid
 
 ### Periodic and Aperiodic Sequences
 
-\\(x4\\) is the only aperiodic sequence here.
+\\(x4\\)apt update is the only aperiodic sequence here.
 
 ```matlab
 %% Periodic and aperiodic sequences
