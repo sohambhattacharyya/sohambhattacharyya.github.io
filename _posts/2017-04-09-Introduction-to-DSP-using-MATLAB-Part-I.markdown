@@ -80,7 +80,7 @@ y =
 
 ### Frequency Response of a First Order System
 
-The `freqz` function returns the frequency response vector $h$, from the given values of the system $H(z) = \frac{1}{1 - 8z^(-1)}$.
+The `freqz` function returns the frequency response vector \\(h\\), from the given values of the system \\(H(z) = \frac{1}{1 - 8z^{-1}}\\).
 
 ```matlab
 %% Frequency response of a first order system
@@ -100,7 +100,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');
 
 ### Frequency Response of Given Systems
 
-The given systems are $H(z) = \frac{1 + 0.9z^-2}{1 + 0.4z^-2}$ and $H(z) = \frac{1 - z^-1}{1 + 0.25z^-1}$.
+The given systems are \\(H(z) = \frac{1 + 0.9z^{-2}}{1 + 0.4z^{-2}}\\) and \\(H(z) = \frac{1 - z^{-1}}{1 + 0.25z^{-1}}\\).
 
 ```matlab
 %% Frequency response of given systems
@@ -126,7 +126,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');grid
 
 ### Frequency Response of FIR Systems
 
-For the two FIR systems $H(z) = 1 + z^-1 + z^-2 + z^-3 + z^-4$ and $H(z) = 1 - z^-1$.
+For the two FIR systems \\(H(z) = 1 + z^{-1} + z^{-2} + z^{-3} + z^{-4}\\) and \\(H(z) = 1 - z^{-1}\\).
 
 ```matlab
 %% Frequency response of FIR systems
@@ -152,7 +152,7 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');grid
 
 ### Periodic and Aperiodic Sequences
 
-$x4$ is the only aperiodic sequence here.
+\\(x4\\) is the only aperiodic sequence here.
 
 ```matlab
 %% Periodic and aperiodic sequences

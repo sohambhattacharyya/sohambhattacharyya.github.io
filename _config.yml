@@ -17,6 +17,7 @@ keywords: ["DSP", "MATLAB", "Electrical", "Electronics", "Communications", "Engi
 #
 timezone:          India/Kolkata
 markdown:          kramdown
+mathjax:           true
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /blog/:title
@@ -27,6 +28,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+
 
 #
 ###################################
@@ -70,4 +72,5 @@ owner:
 plugins:
   - jekyll-seo-tag
 
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
