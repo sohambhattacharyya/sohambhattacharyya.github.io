@@ -12,7 +12,7 @@ A [link][part1] to the previous part, a [link][part3] to the next part and a [li
 
 ### DFT of a Sequence - Magnitude and Phase Response
 
-The function takes the input sequence and the number of frequency points as the argument.
+The function takes the input sequence and the number of frequency points as two arguments.
 
 ```matlab
 %% DFT of a sequence and plot of the magnitude and phase response
@@ -588,7 +588,7 @@ az =
 
 
 
-[This][GitHub link] file contains all the scripts used in this post. Here is a [link][part3] to the next part and a [link][part4] to the references part.
+[This][GitHub link] repo contains all the scripts used in this post. Here is a [link][part3] to the next part and a [link][part4] to the references part.
 
 
 
@@ -596,4 +596,4 @@ az =
 [part3]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-III
 [part4]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
 
-[GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB/blob/master/Introduction-to-DSP-using-MATLAB-Part-II.m
+[GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB

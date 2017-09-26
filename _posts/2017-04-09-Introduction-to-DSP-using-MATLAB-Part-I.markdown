@@ -236,7 +236,7 @@ subplot(3,1,3),plot(t,y),xlabel('Time'),ylabel('Output of the notch filter'),axi
 
 ![A Notch Filter that filters 50 Hz Noise](/img/dsp_matlab_1/blog9.jpg)
 
-[This][GitHub link] file contains all the scripts used in this post.  Here is a [link][part2] to the next part.
+[This][GitHub link] repo contains all the scripts used in this post.  Here is a [link][part2] to the next part.
 
 
 
@@ -246,4 +246,4 @@ subplot(3,1,3),plot(t,y),xlabel('Time'),ylabel('Output of the notch filter'),axi
 [part2]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-II
 [part4]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
 
-[GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB/blob/master/Introduction-to-DSP-using-MATLAB-Part-I.m
+[GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB
