@@ -49,14 +49,14 @@ for k = 0:1:N-1
 end
 X = x1 * x2;
 ```
-Notice the Command Window shows the two output sequences of the 8-point and 50-point DFT.
+Notice that the Command Window shows the two output sequences of the 8-point and 50-point DFT.
 
 ![Magnitude and phase response of the DFT of a sequence](/img/dsp_matlab_2/blog1.jpg)
 
 
 ### Inverse DFT of a Sequence
 
-`conv` function does the job here.
+
 ```matlab
 %% Inverse DFT of a sequence
 X = [4,1+i,0,1,-i,0,1+i,1-i];
@@ -106,7 +106,8 @@ if(N<max(Nx,Nh))
 end
 y = circconv(x,h,N)
 ```
-* circconv.m:
+
+*circconv.m:*
 
 ```matlab
 function [y] = circconv(x,h,N);
@@ -146,8 +147,6 @@ y =
 
 ### Comparison between Circular and Linear Convolutions of two Sequences
 
-
-
 ```matlab
 %% Frequency response of given systems
 b = [1,0,.9]; %Numerator coefficients of system1
@@ -171,8 +170,6 @@ xlabel('Normalized fequency \omega/\pi'), ylabel('Phase in radians');grid
 
 
 ### Overlap and Save Method
-
-
 
 ```matlab
 %% Overlap and save method
@@ -217,7 +214,6 @@ y =
 
 
 ### Overlap and Add Method
-
 
 
 ```matlab
@@ -308,8 +304,6 @@ subplot(2,1,1); plot(om/pi,20*log(m)); grid; xlabel('Normalized frequency'); yla
 subplot(2,1,2); plot(om/pi,an);        grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Butterworth lowpass filter](/img/dsp_matlab_2/blog3.jpg)
-
 Command Window output:
 
 ```matlab
@@ -318,6 +312,8 @@ b =
 a =
     1.0000    0.6418    0.6165    0.1449    0.0259
 ```
+
+![Butterworth lowpass filter](/img/dsp_matlab_2/blog3.jpg)
 
 ### Butterworth Bandpass Filter
 
@@ -340,8 +336,6 @@ subplot(2,1,1); plot(ph/pi,m); grid; xlabel('Normalized frequency'); ylabel('Gai
 subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Butterworth bandpass filter](/img/dsp_matlab_2/blog4.jpg)
-
 Command Window output:
 
 ```matlab
@@ -350,6 +344,8 @@ b =
 a =
     1.0000   -3.8710    7.9699  -10.6417   10.0781   -6.8167    3.2579   -1.0044    0.1670
 ```
+
+![Butterworth bandpass filter](/img/dsp_matlab_2/blog4.jpg)
 
 
 ### Butterworth Highpass Filter
@@ -375,8 +371,6 @@ subplot(2,1,1); plot(om/pi,m);  grid; xlabel('Normalized frequency'); ylabel('Ga
 subplot(2,1,2); plot(om/pi,an); grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Butterworth highpass filter](/img/dsp_matlab_2/blog5.jpg)
-
 Command Window output:
 
 ```matlab
@@ -385,6 +379,8 @@ b =
 a =
     1.0000    1.2948    1.0206    0.3575    0.0550
 ```
+
+![Butterworth highpass filter](/img/dsp_matlab_2/blog5.jpg)
 
 
 ### Butterworth Band-stop Filter
@@ -407,8 +403,6 @@ subplot(2,1,1); plot(ph/pi,m);  grid; xlabel('Normalized frequency'); ylabel('Ga
 subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Butterworth band-stop filter](/img/dsp_matlab_2/blog6.jpg)
-
 Command Window output:
 
 ```matlab
@@ -417,6 +411,8 @@ b =
 a =
     1.0000   -3.2803    5.4917   -6.1419    5.0690   -3.0524    1.3002   -0.3622    0.0558
 ```
+
+![Butterworth band-stop filter](/img/dsp_matlab_2/blog6.jpg)
 
 
 ### Chebyshev Type I Lowpass Filter
@@ -441,8 +437,6 @@ subplot(2,1,1); plot(ph/pi,m);  grid; xlabel('Normalized frequency'); ylabel('Ga
 subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Chebyshev 1 lowpass filter](/img/dsp_matlab_2/blog7.jpg)
-
 Command Window output:
 
 ```matlab
@@ -451,6 +445,8 @@ b =
 a =
     1.0000   -3.0543    3.8290   -2.2925    0.5507
 ```
+
+![Chebyshev 1 lowpass filter](/img/dsp_matlab_2/blog7.jpg)
 
 ### Chebyshev Type II Lowpass Filter
 
@@ -474,8 +470,6 @@ subplot(2,1,1); plot(ph/pi,20*log(m)); grid; xlabel('Normalized frequency'); yla
 subplot(2,1,2); plot(ph/pi,an);        grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Chebyshev 2 lowpass filter](/img/dsp_matlab_2/blog8.jpg)
-
 Command Window output:
 
 ```matlab
@@ -484,6 +478,8 @@ b =
 a =
     1.0000   -1.8076    1.5891   -0.6201    0.1153
 ```
+
+![Chebyshev 2 lowpass filter](/img/dsp_matlab_2/blog8.jpg)
 
 ### Chebyshev Type I Bandpass Filter
 
@@ -505,8 +501,6 @@ subplot(2,1,1); plot(ph/pi,m);  grid; xlabel('Normalized frequency'); ylabel('Ga
 subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Chebyshev 1 bandpass filter](/img/dsp_matlab_2/blog9.jpg)
-
 Command Window output:
 
 ```matlab
@@ -516,6 +510,7 @@ a =
     1.0000   -3.2632    5.9226   -6.6513    5.0802   -2.3909    0.6307
 ```
 
+![Chebyshev 1 bandpass filter](/img/dsp_matlab_2/blog9.jpg)
 
 ### Chebyshev Type II Bandstop Filter
 
@@ -537,8 +532,6 @@ subplot(2,1,1); plot(ph/pi,m);  grid; xlabel('Normalized frequency'); ylabel('Ga
 subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Phase in radians');
 ```
 
-![Chebyshev 2 band-stop filter](/img/dsp_matlab_2/blog10.jpg)
-
 Command Window output:
 
 ```matlab
@@ -548,6 +541,7 @@ a =
     1.0000   -2.7289    4.0090   -3.7876    2.5028   -1.0299    0.2357
 ```
 
+![Chebyshev 2 band-stop filter](/img/dsp_matlab_2/blog10.jpg)
 
 ### Conversion of an Analog Filter into a Digital Filter using Impulse Invariance Method
 
