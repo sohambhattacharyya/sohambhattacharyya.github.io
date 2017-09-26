@@ -69,13 +69,14 @@ subplot(2,1,2), stem(n2,y);
 xlabel('n'),ylabel('y(n)');
 title('Convolution of two sequences x(n) and h(n)');
 ```
-Command Window output:
+
+![Convolution of two sequences](/img/dsp_matlab_1/blog2.jpg)
+
+* Command Window output:
 ```matlab
 y =
      1     1     3     5     4     9     8     9    11     6     5     2
 ```
-
-![Convolution of two sequences](/img/dsp_matlab_1/blog2.jpg)
 
 
 ### Frequency Response of a First Order System
@@ -235,9 +236,14 @@ subplot(3,1,3),plot(t,y),xlabel('Time'),ylabel('Output of the notch filter'),axi
 
 ![A Notch Filter that filters 50 Hz Noise](/img/dsp_matlab_1/blog9.jpg)
 
-[This][GitHub link] file contains all the scripts used in this post.
+[This][GitHub link] file contains all the scripts used in this post.  Here is a [link][part2] to the next part.
+
+
 
 [book1]:        http://www.amazon.in/Digital-Signal-Processing-Principles-Applications/dp/8131710009/ref=sr_1_fkmr0_1?ie=UTF8&qid=1493404937&sr=8-1-fkmr0&keywords=proakis+manokalis
 [book2]:        http://www.amazon.in/Digital-Signal-Processing-Oppenheim-Schafer/dp/9332550336/ref=sr_1_2?ie=UTF8&qid=1493405049&sr=8-2&keywords=oppenheim
-[part4]:        http://sohambhattacharyya.me/2017/Introduction-to-DSP-using-MATLAB-Part-I/
+
+[part2]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-II
+[part4]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
+
 [GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB/blob/master/Introduction-to-DSP-using-MATLAB-Part-I.m
