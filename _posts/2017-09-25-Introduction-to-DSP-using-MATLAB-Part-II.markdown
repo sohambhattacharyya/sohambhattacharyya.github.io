@@ -10,8 +10,6 @@ A [link][part1] to the previous part, a [link][part3] to the next part and a [li
 
 
 
-
-
 ### DFT of a Sequence - Magnitude and Phase Response
 
 The function takes the input sequence and the number of frequency points as the argument.
@@ -30,7 +28,9 @@ k = 0:1:N2-1;
 subplot(2,2,2), stem(k,abs(Y2)), xlabel('k'), ylabel('|Y2(k)|');
 subplot(2,2,4), stem(k,angle(Y2)), xlabel('k'), ylabel('arg(Y2(k))');
 ```
-* dft.m:
+
+*dft.m:*
+
 ```matlab
 function X = dft(xn,N)
 % To compute the DFT of the sequence x(n)
@@ -63,7 +63,7 @@ X = [4,1+i,0,1,-i,0,1+i,1-i];
 N = length(X);
 xn = idft(X,N)
 ```
-* idft.m:
+*idft.m:*
 
 ```matlab
 function xn = idft(X,N)
@@ -78,7 +78,9 @@ for k = 0:1:N-1
 end
 xn = (X*x2.')/N;
 ```
-* Command Window output:
+
+Command Window output:
+
 ```matlab
 xn =
   Columns 1 through 7
@@ -130,7 +132,9 @@ end
 % Matrix convolution
 y = x*H';
 ```
-* Command Window output:
+
+Command Window output:
+
 ```matlab
 x =
          0    0.9239    0.7071   -0.3827   -1.0000   -0.3827    0.7071    0.9239
@@ -177,7 +181,7 @@ h = [1,2,1,1]; % Impulse sequence
 N = 4; % Length of each block before appending zeros
 y = ovrlsav(x,h,N);
 ```
-* ovrlsav.m:
+*ovrlsav.m:*
 
 ```matlab
 function y = ovrlsav(x,h,N)
@@ -204,7 +208,8 @@ end
 Y = Y(:,M:N)'; %Discard first M-1 blocks
 y = (Y(:))'
 ```
-* Command Window output:
+Command Window output:
+
 ```matlab
 y =
      1     4     4     3     8     5    -2    -6    -6    -1     4     5     1     1    -1
@@ -222,7 +227,8 @@ h = [1,2,1,1]; %Impulse sequence
 L = 4; %Length of each block before appending zeros
 y = ovrladd(x,h,L);
 ```
-* ovrladd.m:
+
+*ovrladd.m:*
 
 ```matlab
 function y = ovrladd(x,h,L)
@@ -268,7 +274,9 @@ for j = 1:y
 end
 y = ypnew
 ```
-* Command Window output:
+
+Command Window output:
+
 ```matlab
 y =
      1     4     4     3     8     5    -2    -6    -6    -1     4     5     1     1    -1     0     0     0     0
@@ -302,7 +310,8 @@ subplot(2,1,2); plot(om/pi,an);        grid; xlabel('Normalized frequency'); yla
 
 ![Butterworth lowpass filter](/img/dsp_matlab_2/blog3.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.1518    0.6073    0.9109    0.6073    0.1518
@@ -333,7 +342,8 @@ subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Ph
 
 ![Butterworth bandpass filter](/img/dsp_matlab_2/blog4.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.0060         0   -0.0240         0    0.0359         0   -0.0240         0    0.0060
@@ -367,7 +377,8 @@ subplot(2,1,2); plot(om/pi,an); grid; xlabel('Normalized frequency'); ylabel('Ph
 
 ![Butterworth highpass filter](/img/dsp_matlab_2/blog5.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.0265   -0.1058    0.1587   -0.1058    0.0265
@@ -398,7 +409,8 @@ subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Ph
 
 ![Butterworth band-stop filter](/img/dsp_matlab_2/blog6.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.2348   -1.1611    3.0921   -5.2573    6.2629   -5.2573    3.0921   -1.1611    0.2348
@@ -431,14 +443,14 @@ subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Ph
 
 ![Chebyshev 1 lowpass filter](/img/dsp_matlab_2/blog7.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.0018    0.0073    0.0110    0.0073    0.0018
 a =
     1.0000   -3.0543    3.8290   -2.2925    0.5507
 ```
-
 
 ### Chebyshev Type II Lowpass Filter
 
@@ -464,7 +476,8 @@ subplot(2,1,2); plot(ph/pi,an);        grid; xlabel('Normalized frequency'); yla
 
 ![Chebyshev 2 lowpass filter](/img/dsp_matlab_2/blog8.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.1160   -0.0591    0.1630   -0.0591    0.1160
@@ -494,7 +507,8 @@ subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Ph
 
 ![Chebyshev 1 bandpass filter](/img/dsp_matlab_2/blog9.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.0083         0   -0.0248         0    0.0248         0   -0.0083
@@ -525,7 +539,8 @@ subplot(2,1,2); plot(ph/pi,an); grid; xlabel('Normalized frequency'); ylabel('Ph
 
 ![Chebyshev 2 band-stop filter](/img/dsp_matlab_2/blog10.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 b =
     0.4870   -1.7177    3.3867   -4.1110    3.3867   -1.7177    0.4870
@@ -546,7 +561,8 @@ f = 5;           % Sampling frequency
 [bz,az] = impinvar(b,a,f)
 ```
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 bz =
     0.0000    0.0290   -0.0195
@@ -567,8 +583,7 @@ f = 1;       % Sampling frequency
 [bz,az] = bilinear(b,a,f)
 ```
 
-* Command Window output:
-
+Command Window output:
 
 ```matlab
 bz =

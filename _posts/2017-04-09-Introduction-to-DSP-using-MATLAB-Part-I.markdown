@@ -72,7 +72,8 @@ title('Convolution of two sequences x(n) and h(n)');
 
 ![Convolution of two sequences](/img/dsp_matlab_1/blog2.jpg)
 
-* Command Window output:
+Command Window output:
+
 ```matlab
 y =
      1     1     3     5     4     9     8     9    11     6     5     2
