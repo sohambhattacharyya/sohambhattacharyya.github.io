@@ -352,11 +352,11 @@ a =
 
 ```matlab
 %% To design a Butterworth highpass filter for the specifications
-alphap = .4;        %Pass band attenuation in dB
-alphas = 30;        %Stop band attenuation in dB
-fp = 800;           %Passband frequency in radians
-fs = 400;           %Stopband frequency in radians
-F = 2000;           %Sampling frequency in Hz
+alphap = .4;        % Pass band attenuation in dB
+alphas = 30;        % Stop band attenuation in dB
+fp = 800;           % Passband frequency in radians
+fs = 400;           % Stopband frequency in radians
+F = 2000;           % Sampling frequency in Hz
 omp = 2*fp/F;
 oms = 2*fs/F;
 %To find cutoff frequency and order of the filter
@@ -387,10 +387,10 @@ a =
 
 ```matlab
 %% To design a Butterworth bandstop filter for the specifications
-alphap = 2;         %Pass band attenuation in dB
-alphas = 20;        %Stop band attenuation in dB
-ws = [.2*pi,.4*pi]; %Stopband frequency in radians
-wp = [.1*pi,.5*pi]; %Passband frequency in radians
+alphap = 2;         % Pass band attenuation in dB
+alphas = 20;        % Stop band attenuation in dB
+ws = [.2*pi,.4*pi]; % Stopband frequency in radians
+wp = [.1*pi,.5*pi]; % Passband frequency in radians
 %To find cutoff frequency and order of the filter
 [n,wn] = buttord(wp/pi,ws/pi,alphap,alphas);
 %System function of the filter
@@ -588,7 +588,7 @@ az =
 
 
 
-[This][GitHub link] repo contains all the scripts used in this post. Here is a [link][part3] to the next part and a [link][part4] to the references part.
+[This][GitHub link] repo contains all the scripts used in this post. Here is a [link][part1] to the previous part, a [link][part3] to the next part and a [link][part4] to the references part.
 
 
 
