@@ -128,9 +128,10 @@ ylabel('Magnitude'); hold off
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
-   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\[2ex]
+   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\
    2-\frac{2n}{N},  &  \text{\\(\frac{N}{2} \le n \le N\\)}
-   \end{cases}\\]
+   \end{cases}
+\\]
 The window length \\(L = N + 1\\).
 
 ```matlab
@@ -143,7 +144,7 @@ wt = bartlett(N); % Bartlett window
 hn = hd.*wt';     % Filter coefficients
 w = 0:.01:pi;
 h = freqz(hn,1,w);
-plot(w/pi,abs(h)); hold on
+plot(w/pi,abs(h));   hold on
 wh = hamming(N); % Hamming window sequence
 hn = hd.*wh';    % Filter coefficients
 w = 0:.01:pi;
@@ -218,7 +219,7 @@ ylabel('Magnitude'); hold off
 ### Lowpass Filter using Kaiser Window
 
 The coefficients of a Kaiser window are computed from the following equation:
-\\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)}, \quad 0 \le n \le N,\\]
+\\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)}, \qquad 0 \le n \le N\\]
 where \\(I_0\\) is the zeroth-order modified Bessel function of the first kind. The length \\(L = N + 1\\).
 
 ```matlab
