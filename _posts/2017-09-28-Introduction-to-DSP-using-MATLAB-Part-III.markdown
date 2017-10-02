@@ -42,7 +42,7 @@ ylabel('Magnitude'); hold off
 ### 25-tap Highpass Filter using Rectangular and Blackman Windows
 
 The `blackman` function creates the Blackman window. The following equation defines the Blackman window of length \\(N\\):
-\\[w(n) = 0.42 - 0.5cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1},  0 \le n \le M - 1\\]
+\\[w(n) = 0.42 - 0.5cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1}, \quad 0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2\\) for \\(N\\) even and \\((N + 1)/2\\) for \\(N\\) odd.
 
 ```matlab
@@ -128,8 +128,8 @@ ylabel('Magnitude'); hold off
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
-   \frac{2n}{N},    &  0 \le n \le \frac{N}{2} \\[2ex]
-   2-\frac{2n}{N},  &  \frac{N}{2} \le n \le N
+   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\[2ex]
+   2-\frac{2n}{N},  &  \text{\\(\frac{N}{2} \le n \le N\\)}
    \end{cases}\\]
 The window length \\(L = N + 1\\).
 
@@ -193,7 +193,7 @@ ylabel('Magnitude');    hold off
 ### FIR Lowpass Filter using Hamming and Blackman Windows
 
 The following equation defines the Blackman window of length N:
-\\[w(n) = 0.42 − 0.5cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1},  0 \le n \le M - 1\\]
+\\[w(n) = 0.42 − 0.5cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1}, \quad 0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2\\) for \\(N\\) even and \\((N + 1)/2\\) for \\(N\\) odd.
 
 ```matlab
@@ -218,7 +218,7 @@ ylabel('Magnitude'); hold off
 ### Lowpass Filter using Kaiser Window
 
 The coefficients of a Kaiser window are computed from the following equation:
-\\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)},  0 \le n \le N,
+\\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)}, \quad 0 \le n \le N,\\]
 where \\(I_0\\) is the zeroth-order modified Bessel function of the first kind. The length \\(L = N + 1\\).
 
 ```matlab
