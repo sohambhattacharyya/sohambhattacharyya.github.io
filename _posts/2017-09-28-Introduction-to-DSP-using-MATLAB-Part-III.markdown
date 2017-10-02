@@ -128,7 +128,7 @@ ylabel('Magnitude'); hold off
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
-   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\   
+   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\\\   
    2-\frac{2n}{N},  &  \text{\\(\frac{N}{2} \le n \le N\\)}
    \end{cases}
 \\]
