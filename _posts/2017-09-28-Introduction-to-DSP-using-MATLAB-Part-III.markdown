@@ -12,8 +12,8 @@ A [link][part2] to the previous part, a [link][part1] to the first part and a [l
 ### 25-tap Lowpass Filter using Rectangular and Hamming Windows
 
 The `rectwin` and `hamming` functions create the rectangular and Hamming window.
-The Hamming window is generated from the equation: \\[w(n) = 0.54 - 0.46cos(2\pi\frac{n}{N}),  0 \le n \le N.\\]
-The window length \\(L = N + 1.\\)
+The Hamming window is generated from the equation: \\[w(n) = 0.54 - 0.46cos\left(2\pi\frac{n}{N}\right), \quad 0 \le n \le N\\].
+The window length \\(L = N + 1\\).
 
 ```matlab
 %% To design a 25-tap lowpass filter with cutoff frequency .5pi radians
@@ -42,7 +42,7 @@ ylabel('Magnitude'); hold off
 ### 25-tap Highpass Filter using Rectangular and Blackman Windows
 
 The `blackman` function creates the Blackman window. The following equation defines the Blackman window of length \\(N\\):
-\\[w(n) = 0.42 - 0.5cos\frac{2\pin}{N - 1} + 0.08cos\frac{4\pin}{N - 1},  0 \le n \le M - 1\\]
+\\[w(n) = 0.42 - 0.5cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1},  0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2\\) for \\(N\\) even and \\((N + 1)/2\\) for \\(N\\) odd.
 
 ```matlab
@@ -128,7 +128,7 @@ ylabel('Magnitude'); hold off
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
-   \frac{2n}{N},    &  0 \le n \le \frac{N}{2}
+   \frac{2n}{N},    &  0 \le n \le \frac{N}{2} \\[2ex]
    2-\frac{2n}{N},  &  \frac{N}{2} \le n \le N
    \end{cases}\\]
 The window length \\(L = N + 1\\).
@@ -159,7 +159,7 @@ ylabel('Magnitude'); hold off
 ### 25-tap Differentiator using Rectangular, Bartlett and Hanning Windows
 
 The following equation generates the coefficients of a Hann window:
-\\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right),  0 \le n \le N\\].
+\\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right), \quad 0 \le n \le N\\].
 The window length \\(L = N + 1\\).
 
 ```matlab
@@ -193,7 +193,7 @@ ylabel('Magnitude');    hold off
 ### FIR Lowpass Filter using Hamming and Blackman Windows
 
 The following equation defines the Blackman window of length N:
-\\[w(n) = 0.42 − 0.5cos\frac{2\pin}{N - 1} + 0.08cos\frac{4\pin}{N - 1},  0 \le n \le M - 1\\]
+\\[w(n) = 0.42 − 0.5cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1},  0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2\\) for \\(N\\) even and \\((N + 1)/2\\) for \\(N\\) odd.
 
 ```matlab
