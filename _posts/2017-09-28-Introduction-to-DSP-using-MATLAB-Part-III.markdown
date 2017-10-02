@@ -12,7 +12,7 @@ A [link][part2] to the previous part, a [link][part1] to the first part and a [l
 ### 25-tap Lowpass Filter using Rectangular and Hamming Windows
 
 The `rectwin` and `hamming` functions create the rectangular and Hamming window.
-The Hamming window is generated from the equation: \\[w(n) = 0.54 - 0.46cos\left(2\pi\frac{n}{N}\right), \qquad 0 \le n \le N\\].
+The Hamming window is generated from the equation: \\[w(n) = 0.54 - 0.46cos\left(2\pi\frac{n}{N}\right), \qquad 0 \le n \le N\\]
 The window length \\(L = N + 1\\).
 
 ```matlab
@@ -129,6 +129,7 @@ The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
    \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\  
+
    2-\frac{2n}{N},  &  \text{\\(\frac{N}{2} \le n \le N\\)}
    \end{cases}
 \\]
@@ -160,7 +161,7 @@ ylabel('Magnitude'); hold off
 ### 25-tap Differentiator using Rectangular, Bartlett and Hanning Windows
 
 The following equation generates the coefficients of a Hann window:
-\\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right), \qquad 0 \le n \le N\\].
+\\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right), \qquad 0 \le n \le N\\]
 The window length \\(L = N + 1\\).
 
 ```matlab
