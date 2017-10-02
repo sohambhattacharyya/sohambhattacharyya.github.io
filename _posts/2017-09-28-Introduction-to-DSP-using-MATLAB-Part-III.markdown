@@ -128,7 +128,7 @@ ylabel('Magnitude'); hold off
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
-   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\\\[2ex]
+   \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\\\\\[2ex\\]
    2-\frac{2n}{N},  &  \text{\\(\frac{N}{2} \le n \le N\\)}
    \end{cases}
 \\]
@@ -159,7 +159,7 @@ ylabel('Magnitude'); hold off
 
 ### 25-tap Differentiator using Rectangular, Bartlett and Hanning Windows
 
-The following equation generates the coefficients of a Hann window:
+The following equation generates the coefficients of a Hanning window:
 \\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right), \qquad 0 \le n \le N\\]
 The window length \\(L = N + 1\\).
 
