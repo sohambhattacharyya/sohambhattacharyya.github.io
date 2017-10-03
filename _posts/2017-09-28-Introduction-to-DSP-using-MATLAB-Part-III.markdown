@@ -12,6 +12,10 @@ A [link][part2] to the previous part, a [link][part1] to the first part and a [l
 ### 25-tap Lowpass Filter using Rectangular and Hamming Windows
 
 The `rectwin` and `hamming` functions create the rectangular and Hamming window.
+
+![Rectangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Window_function_and_frequency_response_-_Rectangular.svg)
+![Hamming window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/7/76/Window_function_and_frequency_response_-_Hamming_%28alpha_%3D_0.53836%29.svg)
+
 The Hamming window is generated from the equation: \\[w(n) = 0.54 - 0.46 cos\left(2\pi\frac{n}{N}\right), \qquad 0 \le n \le N\\]
 The window length \\(L = N + 1\\).
 
@@ -41,7 +45,11 @@ ylabel('Magnitude'); hold off
 
 ### 25-tap Highpass Filter using Rectangular and Blackman Windows
 
-The `blackman` function creates the Blackman window. The following equation defines the Blackman window of length \\(N\\):
+The `blackman` function creates the Blackman window.
+
+![Blackman window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/3/38/Window_function_and_frequency_response_-_Blackman.svg)
+
+The following equation defines the Blackman window of length \\(N\\):
 \\[w(n) = 0.42 - 0.5 cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1}, \qquad 0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2\\) for \\(N\\) even and \\((N + 1)/2\\) for \\(N\\) odd.
 
@@ -125,6 +133,8 @@ ylabel('Magnitude'); hold off
 
 ### 25-tap Hilbert Transformer using Bartlett and Hamming Windows
 
+![Triangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/5/5b/Window_function_and_frequency_response_-_Triangular.svg)
+
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
    \begin{cases}
@@ -157,7 +167,9 @@ ylabel('Magnitude'); hold off
 ![Frequency response of 25-tap Hilbert transformer using Bartlett and Hamming windows](/img/dsp_matlab_3/blog5.jpg)
 
 
-### 25-tap Differentiator using Rectangular, Bartlett and Hanning Windows
+### 25-tap Differentiator using Rectangular, Bartlett and Hann Windows
+
+![Hann window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/b/b3/Window_function_and_frequency_response_-_Hann.svg)
 
 The following equation generates the coefficients of a Hanning window:
 \\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right), \qquad 0 \le n \le N\\]
@@ -204,7 +216,7 @@ N = 25;
 b = fir1(N,wc/pi,hamming(N+1));
 w = 0:.01:pi;
 h = freqz(b,1,w);
-plot(w/pi,abs(h)); hold on
+plot(w/pi,abs(h));   hold on
 b = fir1(N,wc/pi,blackman(N+1));
 w = 0:.01:pi;
 h = freqz(b,1,w);
@@ -218,6 +230,8 @@ ylabel('Magnitude'); hold off
 
 ### Lowpass Filter using Kaiser Window
 
+![Kaiser window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/4/40/Window_function_and_frequency_response_-_Kaiser_%28alpha_%3D_2%29.svg)
+where \\(\beta =^{def} \pi\alpha\\).
 The coefficients of a Kaiser window are computed from the following equation:
 \\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)}, \qquad 0 \le n \le N\\]
 where \\(I_0\\) is the zeroth-order modified Bessel function of the first kind. The length \\(L = N + 1\\).
