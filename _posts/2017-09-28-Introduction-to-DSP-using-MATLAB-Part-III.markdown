@@ -13,8 +13,8 @@ A [link][part2] to the previous part, a [link][part1] to the first part and a [l
 
 The `rectwin` and `hamming` functions create the rectangular and Hamming window.
 
-![Rectangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Window_function_and_frequency_response_-_Rectangular.svg)
-![Hamming window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/7/76/Window_function_and_frequency_response_-_Hamming_%28alpha_%3D_0.53836%29.svg)
+![Rectangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Window_function_and_frequency_response_-_Rectangular.svg/480px-Window_function_and_frequency_response_-_Rectangular.svg.png)
+![Hamming window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Window_function_and_frequency_response_-_Hamming_%28alpha_%3D_0.53836%29.svg/480px-Window_function_and_frequency_response_-_Hamming_%28alpha_%3D_0.53836%29.svg.png)
 
 The Hamming window is generated from the equation: \\[w(n) = 0.54 - 0.46 cos\left(2\pi\frac{n}{N}\right), \qquad 0 \le n \le N\\]
 The window length \\(L = N + 1\\).
@@ -47,7 +47,7 @@ ylabel('Magnitude'); hold off
 
 The `blackman` function creates the Blackman window.
 
-![Blackman window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/3/38/Window_function_and_frequency_response_-_Blackman.svg)
+![Blackman window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Window_function_and_frequency_response_-_Blackman.svg/480px-Window_function_and_frequency_response_-_Blackman.svg.png)
 
 The following equation defines the Blackman window of length \\(N\\):
 \\[w(n) = 0.42 - 0.5 cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1}, \qquad 0 \le n \le M - 1\\]
@@ -133,7 +133,7 @@ ylabel('Magnitude'); hold off
 
 ### 25-tap Hilbert Transformer using Bartlett and Hamming Windows
 
-![Triangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/5/5b/Window_function_and_frequency_response_-_Triangular.svg)
+![Triangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Window_function_and_frequency_response_-_Triangular.svg/480px-Window_function_and_frequency_response_-_Triangular.svg.png)
 
 The coefficients of a Bartlett window are computed as follows:
 \\[w(n) = 
@@ -169,7 +169,7 @@ ylabel('Magnitude'); hold off
 
 ### 25-tap Differentiator using Rectangular, Bartlett and Hann Windows
 
-![Hann window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/b/b3/Window_function_and_frequency_response_-_Hann.svg)
+![Hann window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Window_function_and_frequency_response_-_Hann.svg/480px-Window_function_and_frequency_response_-_Hann.svg.png)
 
 The following equation generates the coefficients of a Hanning window:
 \\[w(n) = 0.5\left(1−cos\left(2\pi\frac{n}{N}\right)\right), \qquad 0 \le n \le N\\]
@@ -230,7 +230,7 @@ ylabel('Magnitude'); hold off
 
 ### Lowpass Filter using Kaiser Window
 
-![Kaiser window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/4/40/Window_function_and_frequency_response_-_Kaiser_%28alpha_%3D_2%29.svg)
+![Kaiser window from wikimedia](https://en.wikipedia.org/wiki/File:Window_function_and_frequency_response_-_Kaiser_(alpha_%3D_2).svg)
 where \\(\beta =^{def} \pi\alpha\\).
 The coefficients of a Kaiser window are computed from the following equation:
 \\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)}, \qquad 0 \le n \le N\\]
