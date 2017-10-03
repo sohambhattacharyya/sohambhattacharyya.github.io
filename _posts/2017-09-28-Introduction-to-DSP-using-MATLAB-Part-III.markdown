@@ -230,7 +230,7 @@ ylabel('Magnitude'); hold off
 
 ### Lowpass Filter using Kaiser Window
 
-![Kaiser window from wikimedia](https://en.wikipedia.org/wiki/File:Window_function_and_frequency_response_-_Kaiser_(alpha_%3D_2).svg)
+![Kaiser window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Window_function_and_frequency_response_-_Kaiser_%28alpha_%3D_2%29.svg/480px-Window_function_and_frequency_response_-_Kaiser_%28alpha_%3D_2%29.svg.png)
 where \\(\beta =^{def} \pi\alpha\\).
 The coefficients of a Kaiser window are computed from the following equation:
 \\[w(n) = \frac{I_0\left(\beta\sqrt{1 - \left(\frac{n - N/2}{N/2}\right)^2}\right)}{I_0(\beta)}, \qquad 0 \le n \le N\\]
