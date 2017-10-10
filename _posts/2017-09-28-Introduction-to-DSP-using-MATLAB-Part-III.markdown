@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to DSP using MATLAB - Part III"
 date: 2017-10-03 02:47:00
 categories: DSP
-tags: [DSP, MATLAB, convolution, system, frequency, FIR]
+tags: [DSP, MATLAB, convolution, system, frequency, Frequency-Domain, FIR, Digital Filters]
 comments: true
 ---
 A [link][part2] to the previous part, a [link][part1] to the first part and a [link][part4] to the references part.
@@ -136,7 +136,7 @@ ylabel('Magnitude'); hold off
 ![Triangular window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Window_function_and_frequency_response_-_Triangular.svg/480px-Window_function_and_frequency_response_-_Triangular.svg.png)
 
 The coefficients of a Bartlett window are computed as follows:
-\\[w(n) = 
+\\[w(n) =
    \begin{cases}
    \frac{2n}{N},    &  \text{\\(0 \le n \le \frac{N}{2}\\)} \\\\\[2ex]
    2-\frac{2n}{N},  &  \text{\\(\frac{N}{2} \le n \le N\\)}
