@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Motivation, MATLAB, EAGLE, Diptrace, Proteus, C,  Linux, Simulink, R,  Python, SQL, VHDL, Tanner EDA, Java, JavaScript, C#
-percentage: 100,     70,     70,    75,       70,      65, 70,    55,       10, 50,     70,  50,   60,         65,   45,         60
+aspects:  MATLAB, EAGLE, Diptrace, Proteus, C,  Linux, Simulink, R,  Python, SQL, VHDL, Tanner EDA, Java, JavaScript, C#
+percentage: 70,     70,    75,       70,   65,   70,    55,     10,  70,     70,  50,   60,         65,   45,         60
