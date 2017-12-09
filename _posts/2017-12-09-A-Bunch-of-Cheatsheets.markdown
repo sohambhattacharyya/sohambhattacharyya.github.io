@@ -6,7 +6,10 @@ categories: References
 tags: [cheatsheets]
 comments: true
 excerpt: I will keep adding to it.
-feature.image: /img/cheat-sheet-poster.png
+image:
+  feature: http://bigocheatsheet.com/img/big-o-cheat-sheet-poster.png
+  credit: Eric Rowell
+  creditlink: http://bigocheatsheet.com/
 ---
 
 ###### MATLAB:
