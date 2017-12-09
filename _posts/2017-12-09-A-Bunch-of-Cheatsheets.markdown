@@ -29,7 +29,7 @@ image:
 * [https://github.com/ro31337/bigoposter/raw/master/bigoposter.pdf](https://github.com/ro31337/bigoposter/raw/master/bigoposter.pdf)
 
 ###### Probability:
-* [https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
+* [https://static1.squarespace.com/static/../../probability_cheatsheet.pdf](https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
 
 ###### Statistics:
 * [http://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf](http://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf)
@@ -45,7 +45,7 @@ image:
 * [https://docs.opencv.org/2.4/opencv_cheatsheet.pdf](https://docs.opencv.org/2.4/opencv_cheatsheet.pdf)
 
 ###### Matplotlib:
-* [https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf)
+* [https://s3.amazonaws.com/../blog_assets/Python_Matplotlib_Cheat_Sheet.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf)
 
 ###### PyCharm:
 * [https://blog.jetbrains.com/pycharm/files/2010/07/PyCharm_Reference_Card.pdf](https://blog.jetbrains.com/pycharm/files/2010/07/PyCharm_Reference_Card.pdf)
