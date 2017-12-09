@@ -7,7 +7,7 @@ tags: [cheatsheets]
 comments: true
 excerpt: I will keep adding to it.
 image:
-  feature: http://bigocheatsheet.com/img/big-o-cheat-sheet-poster.png
+  feature: cheat-sheet-poster.png
   credit: Eric Rowell
   creditlink: http://bigocheatsheet.com/
 ---
