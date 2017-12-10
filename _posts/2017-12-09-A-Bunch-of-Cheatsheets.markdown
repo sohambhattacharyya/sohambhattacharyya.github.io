@@ -44,6 +44,12 @@ image:
 ###### OpenCV:
 * [https://docs.opencv.org/2.4/opencv_cheatsheet.pdf](https://docs.opencv.org/2.4/opencv_cheatsheet.pdf)
 
+###### SciPy:
+* [https://s3.amazonaws.com/../blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf)
+
+###### Scikit-Learn:
+* [https://s3.amazonaws.com/../blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
+
 ###### Matplotlib:
 * [https://s3.amazonaws.com/../blog_assets/Python_Matplotlib_Cheat_Sheet.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf)
 
