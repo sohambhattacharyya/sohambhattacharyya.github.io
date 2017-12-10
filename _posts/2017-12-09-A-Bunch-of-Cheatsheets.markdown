@@ -19,8 +19,9 @@ image:
 * [http://people.duke.edu/~jmp33/matlab/indexing_cheatsheet.pdf](http://people.duke.edu/~jmp33/matlab/indexing_cheatsheet.pdf)
 
 ###### Python:
-* [http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
-* [http://datasciencefree.com/python.pdf](http://datasciencefree.com/python.pdf)
+* 2.7 - [http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
+* Basics - [http://datasciencefree.com/python.pdf](http://datasciencefree.com/python.pdf)
+* Data Science - [https://s3.amazonaws.com/../../PythonForDataScience.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
 
 ###### NumPy:
 * [http://mathesaurus.sourceforge.net/matlab-numpy.html](http://mathesaurus.sourceforge.net/matlab-numpy.html)
@@ -45,7 +46,7 @@ image:
 * [https://docs.opencv.org/2.4/opencv_cheatsheet.pdf](https://docs.opencv.org/2.4/opencv_cheatsheet.pdf)
 
 ###### SciPy:
-* [https://s3.amazonaws.com/../blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf)
+* [https://s3.amazonaws.com/../../Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_SciPy_Cheat_Sheet_Linear_Algebra.pdf)
 
 ###### Scikit-Learn:
 * [https://s3.amazonaws.com/../blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf)
