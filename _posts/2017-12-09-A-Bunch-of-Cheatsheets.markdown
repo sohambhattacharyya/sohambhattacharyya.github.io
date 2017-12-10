@@ -21,7 +21,11 @@ image:
 ###### Python:
 * 2.7 - [http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
 * Basics - [http://datasciencefree.com/python.pdf](http://datasciencefree.com/python.pdf)
+<<<<<<< HEAD
 * Data Science - [https://s3.amazonaws.com/../../PythonForDataScience.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
+=======
+* For Data Science - [https://s3.amazonaws.com/../../PythonForDataScience.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
+>>>>>>> 6f52e942a70f7b09a227d4579e6749db31fc8c3e
 
 ###### NumPy:
 * [http://mathesaurus.sourceforge.net/matlab-numpy.html](http://mathesaurus.sourceforge.net/matlab-numpy.html)
