@@ -25,6 +25,7 @@ image:
 
 ###### NumPy:
 * [http://mathesaurus.sourceforge.net/matlab-numpy.html](http://mathesaurus.sourceforge.net/matlab-numpy.html)
+* [https://www.dataquest.io/blog/images/cheat-sheets/numpy-cheat-sheet.pdf](/img/numpy_dataquest.png)
 
 ###### Big-O Complexity:
 * [https://github.com/ro31337/bigoposter/raw/master/bigoposter.pdf](https://github.com/ro31337/bigoposter/raw/master/bigoposter.pdf)
