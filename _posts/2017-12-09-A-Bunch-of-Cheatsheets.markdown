@@ -13,10 +13,10 @@ image:
 ---
 
 ###### MATLAB:
-* [http://www.econ.ku.dk/pajhede/Cheatsheet.pdf](http://www.econ.ku.dk/pajhede/Cheatsheet.pdf)
+* [http://www.econ.ku.dk/pajhede/Cheatsheet.pdf](http://www.econ.ku.dk/pajhede/Cheatsheet.pdf){:target="_blank"}
 
 ###### MATLAB Indexing:
-* [http://people.duke.edu/~jmp33/matlab/indexing_cheatsheet.pdf](http://people.duke.edu/~jmp33/matlab/indexing_cheatsheet.pdf)
+* [http://people.duke.edu/~jmp33/matlab/indexing_cheatsheet.pdf](http://people.duke.edu/~jmp33/matlab/indexing_cheatsheet.pdf){:target="_blank"}
 
 ###### Python:
 * 2.7 - [http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf)
