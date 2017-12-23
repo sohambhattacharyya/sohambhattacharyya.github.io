@@ -59,6 +59,9 @@ print(timeit.timeit(stmt="2.0 ** 1023"))
 ```python
 print(timeit.timeit(stmt="2.01 ** 1016"))
 0.0302783594007
+```
+
+```python
 print(timeit.timeit(stmt="2.01 ** 1016.01"))
 0.0301967149462
 ```
