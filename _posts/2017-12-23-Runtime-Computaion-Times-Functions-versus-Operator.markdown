@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Runtime Computation Times - Functions versus Operator"
-date: 2017-12-23 22:42:00
+date: 2017-12-23 10:37:00
 categories: write-ups
 tags: [Python, functions, operators, time, computation]
 comments: true
