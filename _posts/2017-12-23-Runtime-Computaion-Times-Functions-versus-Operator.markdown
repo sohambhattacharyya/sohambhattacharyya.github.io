@@ -66,7 +66,7 @@ print(timeit.timeit(stmt="2.01 ** 1016.01"))
 0.0301967149462
 ```
 
-This apparent time difference at runtime occurs most likely due to the overhead function call procedure. Disassembling the codes gives an insight.
+This apparent time difference at runtime occurs most likely due to the overhead function call procedure. Disassembling to bytecodes gives an insight.
 
 ```python
 dis.dis('2.01 ** 1016')
@@ -93,4 +93,4 @@ dis.dis('math.pow(2.01, 1016)')
              10 RETURN_VALUE
 ```
 
-Also notice that while the performance of the inbuilt `pow` function depends upon the numerics given in the arguments, the `math.pow` acts mostly indifferent.
+Also, as a food for thought, notice that while the performance of the inbuilt `pow` function depends upon the numerics given in the arguments, the `math.pow` acts mostly indifferent.
