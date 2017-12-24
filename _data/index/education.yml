@@ -1,4 +1,9 @@
-- name: West Bengal University of Technology, Kolkata, IN
+- name: Dalhousie University, CA
+  link: https://www.dal.ca/
+  date: January 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Ongoing"></i>
+  descr: Master of Applied Science in Electrical and Computer Engineering
+
+- name: West Bengal University of Technology, IN
   link: http://www.wbut.ac.in/
   date: August 2013 - June 2017
-  descr: Bachelor of Technology in Electronics and Communications Engineering
+  descr: Bachelor of Technology in Electronics and Communication Engineering
