@@ -20,7 +20,8 @@ image:
 
 ###### Python:
 * 2.7 - [http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf](http://www.astro.up.pt/~sousasag/Python_For_Astronomers/Python_qr.pdf){:target="_blank"}
-* Basics - [http://datasciencefree.com/python.pdf](http://datasciencefree.com/python.pdf){:target="_blank"}
+* Part I - [http://datasciencefree.com/python.pdf](http://datasciencefree.com/python.pdf){:target="_blank"}
+* Part II - [http://www.codeconquest.com/wp-content/uploads/Python-Cheat-Sheet-by-CodeConquestDOTcom.pdf](http://www.codeconquest.com/wp-content/uploads/Python-Cheat-Sheet-by-CodeConquestDOTcom.pdf){:target="_blank"}
 * Data Science - [https://s3.amazonaws.com/../../PythonForDataScience.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf){:target="_blank"}
 
 ###### NumPy:
