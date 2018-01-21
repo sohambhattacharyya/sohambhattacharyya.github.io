@@ -5,7 +5,7 @@ date: 2017-12-09 22:42:00
 categories: References
 tags: [cheatsheets]
 comments: true
-[comment]: # excerpt: I will keep adding to it.
+[comment]: <> # excerpt: I will keep adding to it.
 image:
   feature: cheat-sheet-poster.png
   credit: Eric Rowell
@@ -68,7 +68,7 @@ image:
 * [https://websitesetup.org/HTML5-cheat-sheet.pdf](https://websitesetup.org/HTML5-cheat-sheet.pdf){:target="_blank"}
 
 ###### CSS:
-* You just can not do it without a source of reference. I recommend [w3c](https://www.w3.org/Style/CSS/Overview.en.html){:target="_blank"} and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"}.
+* You just can not do it without a source of reference. Referring to [w3c](https://www.w3.org/Style/CSS/Overview.en.html){:target="_blank"} and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"} is highly recommended for a clean and semantic code.
 
 ###### Capacitor Codes:
 * [http://www.synthrotek.com/wp-content/uploads/2012/08/Capacitor-Codes.pdf](http://www.synthrotek.com/wp-content/uploads/2012/08/Capacitor-Codes.pdf){:target="_blank"}
