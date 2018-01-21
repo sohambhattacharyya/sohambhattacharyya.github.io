@@ -5,7 +5,7 @@ date: 2017-12-09 22:42:00
 categories: References
 tags: [cheatsheets]
 comments: true
-[comment]: <> # excerpt: I will keep adding to it.
+excerpt:  
 image:
   feature: cheat-sheet-poster.png
   credit: Eric Rowell
