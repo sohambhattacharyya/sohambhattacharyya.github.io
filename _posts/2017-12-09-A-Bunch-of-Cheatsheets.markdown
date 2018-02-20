@@ -69,7 +69,7 @@ image:
 * [https://websitesetup.org/HTML5-cheat-sheet.pdf](https://websitesetup.org/HTML5-cheat-sheet.pdf){:target="_blank"}
 
 ###### CSS:
-* For CSS, I prefer to use a source of reference. Referring to [w3c](https://www.w3.org/Style/CSS/Overview.en.html){:target="_blank"} and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"} is highly recommended for writing a clean and semantic code.
+* I prefer to use a source of reference. Referring to [w3c](https://www.w3.org/Style/CSS/Overview.en.html){:target="_blank"} and [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS){:target="_blank"} is highly recommended for writing a clean and semantic code.
 
 ###### Capacitor Codes:
 * [http://www.synthrotek.com/wp-content/uploads/2012/08/Capacitor-Codes.pdf](http://www.synthrotek.com/wp-content/uploads/2012/08/Capacitor-Codes.pdf){:target="_blank"}
