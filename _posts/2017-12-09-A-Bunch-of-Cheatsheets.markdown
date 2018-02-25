@@ -3,7 +3,7 @@ layout: post
 title: "A Bunch of Cheatsheets"
 date: 2017-12-09 22:42:00
 categories: References
-tags: [cheatsheets]
+tags: [cheatsheets, references]
 comments: true
 excerpt: I will try to keep this post updated.
 image:

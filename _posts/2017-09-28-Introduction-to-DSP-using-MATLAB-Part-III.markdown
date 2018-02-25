@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to DSP using MATLAB - Part III"
 date: 2017-10-03 02:47:00
 categories: DSP
-tags: [DSP, MATLAB, convolution, system, frequency, Frequency-Domain, FIR, Digital Filters]
+tags: [DSP, MATLAB, convolution, system, frequency, Frequency-Domain, FIR, Digital Filters, Introduction to DSP, Signal Processing]
 comments: true
 ---
 A [link][part2] to the previous part, a [link][part1] to the first part and a [link][part4] to the references part.
