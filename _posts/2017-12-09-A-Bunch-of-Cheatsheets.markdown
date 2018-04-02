@@ -56,6 +56,9 @@ image:
 ###### Matplotlib:
 * [https://s3.amazonaws.com/../blog_assets/Python_Matplotlib_Cheat_Sheet.pdf](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf){:target="_blank"}
 
+###### Conda:
+* [https://conda.io/docs/_downloads/conda-cheatsheet.pdf](https://conda.io/docs/_downloads/conda-cheatsheet.pdf){:target="_blank"}
+
 ###### PyCharm:
 * [https://blog.jetbrains.com/pycharm/files/2010/07/PyCharm_Reference_Card.pdf](https://blog.jetbrains.com/pycharm/files/2010/07/PyCharm_Reference_Card.pdf){:target="_blank"}
 
