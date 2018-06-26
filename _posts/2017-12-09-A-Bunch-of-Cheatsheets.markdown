@@ -28,6 +28,9 @@ image:
 * [http://mathesaurus.sourceforge.net/matlab-numpy.html](http://mathesaurus.sourceforge.net/matlab-numpy.html){:target="_blank"}
 * [https://www.dataquest.io/blog/images/cheat-sheets/numpy-cheat-sheet.pdf](/img/numpy_dataquest.png){:target="_blank"}
 
+###### Pandas:
+* [http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf](http://pandas.pydata.org/Pandas_Cheat_Sheet.pdf){:target="_blank"}
+
 ###### Big-O Complexity:
 * [https://github.com/ro31337/bigoposter/raw/master/bigoposter.pdf](https://github.com/ro31337/bigoposter/raw/master/bigoposter.pdf){:target="_blank"}
 
@@ -85,6 +88,12 @@ image:
 
 ###### Atom Editor:
 * [https://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf](https://d2wy8f7a9ursnm.cloudfront.net/atom-editor-cheat-sheet.pdf){:target="_blank"}
+
+###### VS Code:
+* [https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
+
+###### Spyder:
+*[http://e-callisto.org/cospar2018/SpyderKeyboardShortcutsEditor.pdf](http://e-callisto.org/cospar2018/SpyderKeyboardShortcutsEditor.pdf){:target="_blank"}
 
 ###### Markdown:
 * [https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf){:target="_blank"}
