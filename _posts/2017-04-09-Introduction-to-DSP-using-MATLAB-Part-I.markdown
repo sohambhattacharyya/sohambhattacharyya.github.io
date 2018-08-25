@@ -243,7 +243,7 @@ subplot(3,1,3),plot(t,y),xlabel('Time'),ylabel('Output of the notch filter'),axi
 [book1]:        http://www.amazon.in/Digital-Signal-Processing-Principles-Applications/dp/8131710009/ref=sr_1_fkmr0_1?ie=UTF8&qid=1493404937&sr=8-1-fkmr0&keywords=proakis+manokalis
 [book2]:        http://www.amazon.in/Digital-Signal-Processing-Oppenheim-Schafer/dp/9332550336/ref=sr_1_2?ie=UTF8&qid=1493405049&sr=8-2&keywords=oppenheim
 
-[part2]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-II
-[part4]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
+[part2]:        https://sohambhattacharyya.github.io/blog/Introduction-to-DSP-using-MATLAB-Part-II
+[part4]:        https://sohambhattacharyya.github.io/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
 
 [GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB

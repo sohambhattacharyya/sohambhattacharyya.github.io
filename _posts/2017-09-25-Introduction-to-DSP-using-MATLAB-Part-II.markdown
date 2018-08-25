@@ -592,8 +592,8 @@ az =
 
 
 
-[part1]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-I
-[part3]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-III
-[part4]:        http://www.sohambhattacharyya.com/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
+[part1]:        https://sohambhattacharyya.github.io/blog/Introduction-to-DSP-using-MATLAB-Part-I
+[part3]:        https://sohambhattacharyya.github.io/blog/Introduction-to-DSP-using-MATLAB-Part-III
+[part4]:        https://sohambhattacharyya.github.io/blog/Introduction-to-DSP-using-MATLAB-Part-IV-References
 
 [GitHub link]:  https://github.com/sohambhattacharyya/DSP-with-MATLAB
