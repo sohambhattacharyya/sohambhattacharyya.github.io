@@ -11,8 +11,6 @@ image:
 This is a visualization of how the Riemann zeta function transforms the complex s-plane. We assume analytic continuation. Precision is 53.
 
 * Samples from complex s-plane:
-
-[https://web.cs.dal.ca/~soham/viz-s.html](https://web.cs.dal.ca/~soham/viz-s.html)
+...[https://web.cs.dal.ca/~soham/viz-s.html](https://web.cs.dal.ca/~soham/viz-s.html)
 * Transformed s-plane:
-
-[https://web.cs.dal.ca/~soham/viz-zeta.html](https://web.cs.dal.ca/~soham/viz-zeta.html)
+...[https://web.cs.dal.ca/~soham/viz-zeta.html](https://web.cs.dal.ca/~soham/viz-zeta.html)
