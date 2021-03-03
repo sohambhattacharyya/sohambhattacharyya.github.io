@@ -8,7 +8,7 @@ comments: true
 image:
   feature: riemann-zeta-poster.png
 ---
-This is a visualization of how the Riemann zeta function transforms the complex s-plane. We assume analytic continuation. Precision is 53.
+This is a visualization of how the Riemann zeta function transforms the complex s-plane. We assume analytic continuation. Precision is 53 significant decimal digits.
 
  - Samples from complex s-plane:
 
