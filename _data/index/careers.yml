@@ -1,5 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Tata Consultancy Services
+  link: https://www.tcs.com/
+  date: February 2022 - <i class="fa fa-clock-o" aria-hidden="true" title="Ongoing"></i>
+  job: Assistant System Engineer-Trainee
+
 - name: National Institute for Locomotor Disabilities, Govt. of India
   link: http://www.niohkol.nic.in/
   date: July 2017 - December 2017
