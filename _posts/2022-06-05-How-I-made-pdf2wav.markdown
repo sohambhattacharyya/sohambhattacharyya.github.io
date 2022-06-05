@@ -3,7 +3,7 @@ layout: post
 title: "How I made pdf2wav"
 date: 2022-06-05 22:56:00
 categories: Deep Learning
-tags: [deep learning, AI, TTS, Text-To-Speech, spectrogram, vocoder, FastPitch, MelGAN, tacotron2, speech synthesis]
+tags: [deeplearning, AI, TTS, Text-To-Speech, spectrogram, vocoder, FastPitch, MelGAN, tacotron2, speechsynthesis]
 comments: true
 #image:
 #  feature: hook_model.jpg
