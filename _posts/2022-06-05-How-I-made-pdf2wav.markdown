@@ -11,7 +11,7 @@ comments: true
 #  creditlink: https://www.pexels.com/photo/display-coding-programming-development-1921326/
 ---
 
-By constructing a pipeline of pdf reader stream to FastPitch spectrogram generator to MelGAN vocoder. pdf2wav can convert any pdf*(, doc, txt, etc.)* file to wav*(, flac, mp3, etc.)* audio file.
+By constructing a pipeline of pdf reader stream to FastPitch spectrogram generator to MelGAN vocoder. pdf2wav can convert any pdf*(, doc, txt, etc.)* file to wav*(, flac, mp3, etc.)* audio file. This can be used as an audiobook generator.
 
 ##### Samples:
 [To be uploaded soon!]
