@@ -50,8 +50,8 @@ The `blackman` function creates the Blackman window.
 ![Blackman window from wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Window_function_and_frequency_response_-_Blackman.svg/480px-Window_function_and_frequency_response_-_Blackman.svg.png)
 
 The following equation defines the Blackman window of length \\(N\\):
-\\[w(n) = 0.42 - 0.5 cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1}, 
-\qquad 0 \le n \le M - 1\\]
+\\[w(n) = 0.42 - 0.5 cos\frac{2\pi n}{N - 1} + 0.08cos\frac{4\pi n}{N - 1}, \\]
+\\[0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2\\) for \\(N\\) even and \\((N + 1)/2\\) for \\(N\\) odd.
 
 ```matlab
