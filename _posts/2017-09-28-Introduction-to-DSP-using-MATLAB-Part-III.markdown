@@ -207,7 +207,8 @@ ylabel('Magnitude');    hold off
 ### FIR Lowpass Filter using Hamming and Blackman Windows
 
 The following equation defines the Blackman window of length N:
-\\[w(n) = 0.42 − 0.5 cos\frac{2\pi n}{N - 1} + 0.08 cos\frac{4\pi n}{N - 1}, \qquad 0 \le n \le M - 1\\]
+\\[w(n) = 0.42 − 0.5 cos\frac{2\pi n}{N - 1} + 0.08 cos\frac{4\pi n}{N - 1}, \\]
+\\[0 \le n \le M - 1\\]
 where \\(M\\) is \\(N/2 \\) for \\(N\\) even and \\((N + 1)/2 \\) for \\(N\\) odd.
 
 ```matlab
