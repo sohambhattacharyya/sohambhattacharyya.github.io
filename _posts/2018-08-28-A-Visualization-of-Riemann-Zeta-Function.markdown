@@ -3,7 +3,7 @@ layout: post
 title: "A Visualization of Riemann Zeta Function"
 date: 2018-08-28 00:00:00
 categories: [Number Theory]
-tags: [zeta, Riemann, visualization, number, theory, function, analytic, computation]
+tags: [zeta, Riemann, visualization, Riemann Zeta Function, Riemann Zeta Function visualization, analytic continuation, number theory, function, analytic, computation]
 comments: true
 image:
   feature: riemann-zeta-poster.png

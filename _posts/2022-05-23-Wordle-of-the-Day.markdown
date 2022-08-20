@@ -3,7 +3,7 @@ layout: post
 title: "Wordle of the Day!"
 date: 2022-05-23 18:02:00
 categories: Python
-tags: [wordle, fun]
+tags: [wordle of the day answer, wordle of the day, wordle, fun]
 comments: true
 image:
   feature: wordle_bg.jpg
