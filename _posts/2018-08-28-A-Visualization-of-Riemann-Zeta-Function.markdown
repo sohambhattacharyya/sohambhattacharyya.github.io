@@ -12,7 +12,7 @@ This is a visualization of how the Riemann zeta function transforms the complex 
 
  - Samples from complex s-plane:
 
-  [https://web.cs.dal.ca/~soham/viz-s.html](https://web.cs.dal.ca/~soham/viz-s.html)
+  [https://web.cs.dal.ca/~soham/viz-s.html](https://github.com/sohambhattacharyya/Riemann-Zeta-Function-Visualization/blob/master/viz-s.html){:target="_blank"}
  - Transformed s-plane:
 
-  [https://web.cs.dal.ca/~soham/viz-zeta.html](https://web.cs.dal.ca/~soham/viz-zeta.html)
+  [https://web.cs.dal.ca/~soham/viz-zeta.html](https://github.com/sohambhattacharyya/Riemann-Zeta-Function-Visualization/blob/master/viz-zeta.html){:target="_blank"}
