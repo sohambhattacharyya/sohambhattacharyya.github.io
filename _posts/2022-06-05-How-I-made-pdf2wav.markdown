@@ -15,6 +15,6 @@ By constructing a pipeline of pdf reader stream to FastPitch spectrogram generat
 
 ##### Samples:
 
-/audio/pdf2wav.wav
+/assets/audio/pdf2wav.wav
 
 {% include open-embed.html %}
