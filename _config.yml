@@ -15,7 +15,7 @@ keywords: ["DSP", "MATLAB", "Deep Learning", "Electronics", "Communications", "E
 # Jekyll configuration
 ####################################
 #
-timezone:          Canada/Halifax
+timezone:          India/Kolkata
 markdown:          kramdown
 mathjax:           true
 highlighter:       rouge
@@ -38,7 +38,7 @@ kramdown:
 owner:
   name: Soham Bhattacharyya
   avatar: profile.jpg
-  job: "MS, ECE"
+  job: "MASc, ECE"
   bio: "Notes, pointers and cheatsheets."
   email: soham@dal.ca
   disqus-shortname: sohambhattacharyya
