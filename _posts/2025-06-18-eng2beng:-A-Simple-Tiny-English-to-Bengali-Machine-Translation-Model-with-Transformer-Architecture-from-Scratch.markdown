@@ -9,7 +9,7 @@ image:
   feature: eng2beng_logo.png
 ---
 
-A 13.25 M parameters, easy-to-understand Transformer-based machine translation model that you can train yourself, inspect, and tinker with. This will help you understand the basic building blocks of language models.
+A 13.25 M parameters, lightweight Transformer-based machine translation model that you can train yourself, inspect, and tinker with. This will be helpful for understanding the basic building blocks of language models.
 
 We will use these packages.
 ```
