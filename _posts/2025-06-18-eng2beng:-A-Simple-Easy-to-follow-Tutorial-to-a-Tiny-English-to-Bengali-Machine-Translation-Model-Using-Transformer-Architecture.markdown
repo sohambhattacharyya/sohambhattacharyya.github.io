@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "eng2beng: A Simple Easy-to-follow Tutorial to a Tiny English to Bengali Machine Translation Model Using Transformer Architecture"
-date: 2025-06-18 07:48:00
+date: 2025-06-18 00:18:00
 categories: [LLM]
 tags: [eng2beng, DeepLearning, AI, LLM, Machine-Translation, English-to-Bengali, Transformers, Encoders-Decoders, SLM]
 comments: true
