@@ -429,6 +429,6 @@ def evaluate_bleu(df_eval, model, tokenizer_en, tokenizer_bn, device, max_len=96
     return preds, bleu.score
 ```
 
-For simple sentences, the model performs decently. Complex sentences? That’s where it struggles — but again, this is a baby Transformer. Just tuning the model dimension hyperparameters like `d_model`, `nhead`, `num_encoder_layers`, `num_decoder_layers`, `dim_feedforward` etc. and maybe implementing a learnable positional embedding (like in BERT, GPT) would produce magic!
+For simple sentences, the model performs decently. Complex sentences? That’s where it struggles — but again, this is a baby Transformer. Just tuning the model dimension hyperparameters like `d_model`, `nhead`, `num_encoder_layers`, `num_decoder_layers`, `dim_feedforward` etc. and maybe implementing a learnable positional embedding (like in BERT, GPT) (which is also a nice next step) would produce magic!
 
 Here's a [link to the github repo](https://github.com/sohambhattacharyya/eng2beng/tree/main){:target="_blank"} that contains the notebook and the tokenizers.
