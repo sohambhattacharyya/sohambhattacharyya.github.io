@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "eng2beng: A Simple Easy-to-follow Tutorial to a Tiny English to Bengali Machine Translation Model Using Transformer Architecture"
+title: "eng2beng: A Simple Easy-to-follow Tutorial to a Tiny English to Bengali Machine Translation Model with Transformer Architecture"
 date: 2025-06-18 00:18:00
 categories: [LLM]
 tags: [eng2beng, DeepLearning, AI, LLM, Machine-Translation, English-to-Bengali, Transformers, Encoders-Decoders, SLM]
@@ -18,7 +18,7 @@ pip install torch torchvision torchaudio sentencepiece datasets tqdm sacrebleu
 
 #### Tokenization
 
-We use a freely available Hugging Face dataset (Hemanth-thunder/english-to-bengali-mt). We want a dataset small enough that you can train on it in a few hours, but big enough to learn non-trivial mappings.
+We use a freely available Hugging Face dataset *(Hemanth-thunder/english-to-bengali-mt)*. We want a dataset small enough that is trainable in a few hours, but big enough to learn non-trivial mappings.
 
 For tokenization, we train two separate SentencePiece BPE models — one for English and one for Bengali. Each uses a vocab size of 32,000 tokens.
 
@@ -199,14 +199,14 @@ class TransformerModel(nn.Module):
 #### The Training Setup
 
 Training is standard:
-- Loss: CrossEntropyLoss(ignore_index=0) — we ignore padding.
-- Optimizer: AdamW
+- Loss: `CrossEntropyLoss(ignore_index=0)` — we ignore padding.
+- Optimizer: `AdamW`
 - Decoding: Greedy for now (because beam search would be overkill for our humble model).
 
 We also:
 - Shift the target sequence during training (teacher forcing).
 - Use a causal mask so that the decoder only sees past tokens.
-- Pad all sequences to a fixed length (block_size = 32).
+- Pad all sequences to a fixed length (`block_size = 32`).
 
 Here's the training script.
 
@@ -271,9 +271,10 @@ After 10 epochs, the model lands at a loss of around 3.89 — not bad for such a
 
 #### Inference
 
-Here is our inference script.
+Here is the inference script.
 
 ```python
+# Inference
 PAD_ID = 0
 BOS_ID = 1
 EOS_ID = 2
@@ -345,7 +346,7 @@ print(translate("what is the meaning of life?"))
 print(translate("The artist is painting a beautiful picture."))
 print(translate("She is preparing our lunch."))
 ```
-```
+```python
 তিনি একজন ভাল ছেলে।
 তার নাম কী?
 আমি খুব ক্ষুধার্ত।
@@ -429,3 +430,5 @@ def evaluate_bleu(df_eval, model, tokenizer_en, tokenizer_bn, device, max_len=96
 ```
 
 For simple sentences, the model performs decently. Complex sentences? That’s where it struggles — but again, this is a baby Transformer.
+
+Here's a [link to the github repo](https://github.com/sohambhattacharyya/eng2beng/tree/main){:target="_blank"} that contains the notebook and the tokenizers.
