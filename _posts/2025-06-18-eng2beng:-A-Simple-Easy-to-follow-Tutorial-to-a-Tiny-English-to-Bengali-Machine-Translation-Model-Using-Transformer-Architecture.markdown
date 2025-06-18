@@ -20,7 +20,12 @@ pip install torch torchvision torchaudio sentencepiece datasets tqdm sacrebleu
 
 We use a freely available Hugging Face dataset *(Hemanth-thunder/english-to-bengali-mt)*. We want a dataset small enough that is trainable in a few hours, but big enough to learn non-trivial mappings.
 
-For tokenization, we train two separate SentencePiece BPE models — one for English and one for Bengali. Each uses a vocab size of 32,000 tokens.
+For tokenization, we train two separate SentencePiece BPE models — one for English and one for Bengali. Each uses a vocab size of 32,000 tokens. The benefits of choosing a high vocab size in spite of embedding size constraints are manifold - 
+1. Better coverage of rare words,
+2. More semantic granularity (especially for a morphologically rich languages like Bengali),
+3. Shorter sequences, which is a computational win and reduces memory pressure—critical in small models (as we have less block size),
+4. Better lexical understanding.
+It is evidently a direct trade-off between model size and performance.
 
 ```python
 import io
