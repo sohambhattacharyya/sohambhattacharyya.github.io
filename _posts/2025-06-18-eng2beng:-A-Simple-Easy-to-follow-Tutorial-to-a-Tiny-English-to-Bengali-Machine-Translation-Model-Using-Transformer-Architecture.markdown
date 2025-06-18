@@ -12,12 +12,12 @@ image:
 A 13.25 M parameters, easy-to-understand Transformer-based machine translation model that you can train yourself, inspect, and tinker with. This will help you understand the basic building blocks of language models.
 
 We will use these packages.
-
 ```
 pip install torch torchvision torchaudio sentencepiece datasets tqdm sacrebleu
 ```
 
 #### Tokenization
+
 We use a freely available Hugging Face dataset (Hemanth-thunder/english-to-bengali-mt). We want a dataset small enough that you can train on it in a few hours, but big enough to learn non-trivial mappings.
 
 For tokenization, we train two separate SentencePiece BPE models — one for English and one for Bengali. Each uses a vocab size of 32,000 tokens.
@@ -76,7 +76,11 @@ bn_tokenizer.load('bn_tokenizer.model')
 
 print(bn_tokenizer.encode('এটা পরীক্ষা'))
 ```
+
 #### The Dataloader
+
+We use `IterableDataset` to avoid loading everything into RAM.
+
 ```python
 from torch.utils.data import IterableDataset, DataLoader
 from datasets import load_dataset
@@ -116,7 +120,9 @@ def create_data_loader(split, batch_size, en_tokenizer, bn_tokenizer, block_size
     dataset = TranslationIterableDataset(split, en_tokenizer, bn_tokenizer, block_size)
     return DataLoader(dataset, batch_size=batch_size, collate_fn=collate_fn)
 ```
+
 #### The Model
+
 The architecture is standard Transformer fare:
 - Embedding layers for source and target languages.
 - Sinusoidal positional encodings (just like in the paper).
@@ -124,6 +130,7 @@ The architecture is standard Transformer fare:
 - A final linear layer to map decoder outputs to vocabulary logits.
 
 This is basically the Transformer architecture distilled to its minimalist essence.
+
 ```python
 import torch.nn as nn
 import math
@@ -190,6 +197,7 @@ class TransformerModel(nn.Module):
 ```
 
 #### The Training Setup
+
 Training is standard:
 - Loss: CrossEntropyLoss(ignore_index=0) — we ignore padding.
 - Optimizer: AdamW
@@ -198,9 +206,9 @@ Training is standard:
 We also:
 - Shift the target sequence during training (teacher forcing).
 - Use a causal mask so that the decoder only sees past tokens.
-- Pad all sequences to a fixed length (block_size = 96).
+- Pad all sequences to a fixed length (block_size = 32).
 
-Here's the high-level loop:
+Here's the training script.
 
 ```python
 import torch.optim as optim
@@ -262,7 +270,9 @@ save_model(model, 'eng2beng_0_2_1_epoch_10.pt')
 After 10 epochs, the model lands at a loss of around 3.89 — not bad for such a small network trained on limited data.
 
 #### Inference
+
 Here is our inference script.
+
 ```python
 PAD_ID = 0
 BOS_ID = 1
@@ -312,10 +322,12 @@ def translate(sentence):
 
     # Decode Bengali tokens
     return bn_tokenizer.decode(generated[1:])  # Skip <sos>
-
 ```
+
 #### Samples
+
 Here are few generated samples.
+
 ```python
 print(translate("He is a good boy."))
 print(translate("What is her name?"))
@@ -352,7 +364,8 @@ print(translate("She is preparing our lunch."))
 ```
 
 #### Evaluation: BLEU Score
-We use `sacrebleu` for evaluation. It’s standard, robust, and tells us how close we are to human-like translations. We achieve a score of 11.60 on a completely new dataset(not held-out test data from the same dataset). Here's the evaluation function:
+
+We use `sacrebleu` for evaluation. It’s standard, robust, and tells us how close we are to human-like translations. We achieve a score of 11.60 on a completely new dataset(not held-out test data from the same dataset). Here's the evaluation function.
 
 ```python
 import sacrebleu
@@ -414,4 +427,5 @@ def evaluate_bleu(df_eval, model, tokenizer_en, tokenizer_bn, device, max_len=96
     print(f"BLEU Score: {bleu.score:.2f}")
     return preds, bleu.score
 ```
+
 For simple sentences, the model performs decently. Complex sentences? That’s where it struggles — but again, this is a baby Transformer.
