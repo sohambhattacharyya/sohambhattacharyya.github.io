@@ -139,6 +139,7 @@ This is basically the Transformer architecture distilled to its minimalist essen
 
 ```python
 import torch.nn as nn
+import math
 
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, dropout=0.1, max_len=5000):
