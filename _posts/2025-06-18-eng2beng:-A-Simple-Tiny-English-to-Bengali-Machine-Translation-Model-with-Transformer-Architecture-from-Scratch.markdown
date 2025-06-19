@@ -25,6 +25,7 @@ For tokenization, we train two separate SentencePiece BPE models — one for Eng
 2. More semantic granularity (especially for a morphologically rich languages like Bengali),
 3. Shorter sequences, which is a computational win and reduces memory pressure—critical in small models (as we have less block size),
 4. Better lexical understanding.
+
 It is evidently a direct trade-off between model size and performance.
 
 ```python
@@ -138,7 +139,6 @@ This is basically the Transformer architecture distilled to its minimalist essen
 
 ```python
 import torch.nn as nn
-import math
 
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, dropout=0.1, max_len=5000):
@@ -183,8 +183,8 @@ class TransformerModel(nn.Module):
         src_key_padding_mask = (src == 0).transpose(0, 1)
         tgt_key_padding_mask = (tgt == 0).transpose(0, 1)
 
-        src = self.src_embed(src) * math.sqrt(self.d_model)
-        tgt = self.tgt_embed(tgt) * math.sqrt(self.d_model)
+        src = self.src_embed(src) * self.d_model ** 0.5
+        tgt = self.tgt_embed(tgt) * self.d_model ** 0.5
 
         src = self.pos_encoder(src)
         tgt = self.pos_encoder(tgt)
