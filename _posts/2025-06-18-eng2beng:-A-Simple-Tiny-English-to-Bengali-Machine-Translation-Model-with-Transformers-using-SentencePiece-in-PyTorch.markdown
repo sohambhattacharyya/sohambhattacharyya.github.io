@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "eng2beng: A Simple Tiny English to Bengali Machine Translation Model with Transformer Architecture from Scratch"
+title: "eng2beng: A Simple Tiny English to Bengali Machine Translation Model with Transformers using SentencePiece in PyTorch"
 date: 2025-06-18 00:18:00
 categories: [LLM]
 tags: [eng2beng, DeepLearning, AI, LLM, Machine-Translation, English-to-Bengali, Transformers, Encoders-Decoders, SLM]
